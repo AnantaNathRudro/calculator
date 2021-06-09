@@ -1,0 +1,104 @@
+*{
+  margin:0;
+  padding:0;
+
+}
+body{
+  background-image:url('images/image2.jpeg');
+  background-size: cover;
+
+}
+h1{
+  text-align:center;
+  font-style: bold;
+  color: #FF9999;
+
+}
+h1:hover{
+  transform:skew(-45deg);
+}
+.card{
+  margin:0 auto;
+  text-align:center;
+  max-width:400px;
+  margin-top: 15px;
+  box-shadow: 0 4px 8px 0 blue;
+  transition: 1s;
+}
+.card:hover{
+  box-shadow:0 16px 32px 0 blue;
+  transform:scale(1.2);
+}
+.cal-head #result{
+  width:340px;
+  height:70px;
+  text-align:right;
+  font-weight:bold;
+  padding:0 5px;
+  letter-spacing: 2px;
+  background-color: #FFFAF0;
+}
+.btn{
+  width:85px;
+  height:70px;
+  background-color: #34495E;
+  color:white;
+}
+.btn:hover{
+  background-color:#F7DC6F;
+  box-shadow: 2px 5px 4px black;
+  transition:2s;
+}
+.btn-color{
+  background-color: #6699FF;
+  color:white;
+  width:85px;
+  height:70px;
+}
+.btn-color:hover{
+  background-color:#F7DC6F;
+  box-shadow: 2px 5px 4px black;
+}
+.btn-new{
+  background-color:#FAD7A0   ;
+  color:white;
+  width:85px;
+  height:70px;
+}
+.btn-new:hover{
+  background-color:#F7DC6F;
+  box-shadow: 2px 5px 4px black;
+}
+.imgsize{
+  max-width: 250px;
+  height:150px;
+  border:5px solid black;
+  border-radius: 50%;
+  margin-left:50px;
+  position:relative;
+  animation-name: image-anime;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes image-anime  {
+  0%{
+ left:0;
+  }
+  50%{
+    left:100%;
+  }
+  100%{
+    top:0;
+    left:0;
+  }
+
+}
+.icn{
+  font-size: 5rem;
+  color: red;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 1400px;
+
+}
